@@ -11,9 +11,9 @@ public class Test {
         if (StringUtils.isNumeric(userInput)){
             System.out.println("Whoops, you entered a number");
         }else {
-            StringUtils.swapCase(userInput);
-            StringUtils.reverse(userInput);
-            System.out.println(userInput);
+            String jabron = StringUtils.swapCase(userInput);
+            String rocky = StringUtils.reverse(jabron);
+            System.out.println(rocky);
         }
     }
 }
